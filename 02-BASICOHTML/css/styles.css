@@ -1,0 +1,78 @@
+/* Integracao inicial */
+*{ /* defenir algo universal*/
+    margin: 10;
+    padding: 10;
+}
+h1,h2,h3,h4,p,li{
+    font-size: sans-serif;
+}
+
+h1,h2,h3,h4{
+    text-transform: uppercase;
+}
+
+h1,h2,h3{
+    color:cornflowerblue;
+    font-size:26px;
+    text-transform: uppercase;/* para trandormar o testo referente todo em maiosculo */
+    font-style: italic; /* defenir o estilo(negrito ...)  de letra*/
+    font-family: 'Times New Roman', Times, serif;/* para familia da letra (ariel...)*/
+}
+
+h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;  /* para centrar test */
+    color: rgb(0,154,177);
+}
+
+p{
+    font-size:22px; /* tamanho q quero nas letras */
+    line-height:2,0;/* aumentar o espasamento do testo espaco entre as linhas */
+}
+#autor{/*id*/
+    font-style: italic;
+    font-size: 18px;
+}
+.Post-relacionados{
+    list-style: none; /* muda a formatacao que esta na pagina tipo "."post... nesse caso vai o retirar */
+}
+
+.cab{
+     background-color: rgb(240, 231, 238);/* mudar a cor de fundo do cabecalio */
+     padding: 2px 1em 0 1em;
+     line-height:1;
+     
+}
+a{
+    text-decoration: none;
+    color: rgb(0,154,177);
+}
+
+aside{
+    /* border-color: blue; fazer e defenir a cor do contorno */
+    border-top: 5px solid cornflowerblue; /* para defenir a cor espesura tipo.. do contorno */
+    border-bottom: 5px solid;
+    padding: 50px;
+
+
+}
+header{
+    
+    border-top: 8px solid rgb(0,154,177);
+    /* border-radius: 20px; */ 
+    
+}
+
+li{
+    font-size:20px;
+}
+
+footer p{
+    font-size: 16px;
+
+}
+
+body{
+   background-color: white; /* defenir a cor de fundo do ambiente */
+}

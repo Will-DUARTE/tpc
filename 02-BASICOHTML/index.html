@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamental de HTML</title>
+   
+    <!-- 
+    ---------css no head------------
+
+    <style>
+        body{
+            padding-bottom: 500px; 
+        }
+         h2{
+            color: blue; 
+         }
+ 
+
+    </style>
+    -->
+    <!-- defenir a cor para todo os p estilo interno -->
+     <!-- <style>
+        p{
+            color: blue
+            
+        }
+    </style> --> 
+
+</head>
+<!-- <h1 style="color: red"> Jornal de codigo </h1> estilo inline -->
+
+
+<!-- Adicionar arquivo css -->
+
+ <link rel="stylesheet" href="css/styles.css "/> <!--link rel q e a folha de estilo -->
+
+<body>
+    <header class="cab">
+    <h1> Jornal de codio </h1>
+    <a href=*blog.html*>Blog</a>
+    <a href=*blog.html*>Desafio</a>
+    <a href=*blog.html*>Flexibilidade</a>
+    <a href=*blog.html*>CSS Grid</a>
+</header>
+<article>
+
+    <h2>Linguagem fundamental da web: HTML</h2>
+    
+    <img src="laura-jones.jpg" 
+    alt="Foto de cara Laura Jones"
+    height ='50'
+    width = '50'
+    >
+    <p id ="autor">Postado por<strong> Laura Jones </strong>na segunda-feira, 21 de junho de 2027</p>
+    <img
+    src=*post-img.jpg*
+    alt="Exemplo codigo HTML"
+    height = '500'
+    width = '200'
+    />
+    <p>
+        Todos os sites e aplicativos da web modernos são construídos usando três tecnologias fundamentais: HTML, CSS e JavaScript. Estas são as linguagens da web.
+    </p>
+
+    <p>
+        Neste post, vamos nos concentrar em HTML. Vamos aprender o que é HTML e por que você também deve aprendê-lo.
+    </p>
+
+    <h3> O que é HTML? </h3>
+
+    <p>
+        HTML significa <strong>H</strong>yperText<strong> M</strong>arkup <strong>L</strong>anguage É uma linguagem de marcação que os desenvolvedores da Web usam para estruturar e descrever o conteúdo de uma página da Web (não uma linguagem de programação).
+    </p>
+    <p>
+        HTML consiste em elementos que descrevem diferentes tipos de conteúdo: parágrafos, links, cabeçalhos, imagens, vídeo, etc. Os navegadores da Web entendem HTML e processam o código HTML como sites.
+
+    </p>
+
+    <p> Em HTML, cada elemento é composto de 3 partes: </p>
+
+    <ol>
+        <li><strong>A etiqueta de abertura</strong> </li>
+        <li>A etiqueta de fechamento</li>
+        <li>O elemento real</li>
+    </ol>
+    <p>Você pode aprender mais no 
+        <a
+            href="https://developer.nozilla.org/en-us/docs/web/HTML"
+            target=*_blank*
+            >MDN Web Docs.</a>
+    
+</p>
+
+
+    <h3>Porque deve aprender HTML?</h3>
+    <p>
+        Existem inúmeras razões para aprender a linguagem fundamental da web. Aqui estão 5 deles:
+    </p>
+
+    <ul>
+        <li><strong>Ser capaz de usar a linguagem de desenvolvimento web fundamental</strong></li>
+        <li>Para criar sites bonitos à mão em vez de depender de ferramentas como Worpress ou Wix</li>
+        <li>Para construir aplicativos da web</li>
+        <li>Para impressionar os amigos</li>
+        <li>Para me divertir</li>
+    </ul>
+
+    <p>Espero que você tenha aprendido algo novo aqui. Vejo você na próxima vez!</p>
+</article>
+<aside>
+    <h4>Post relacionados</h4>
+
+    <ul class ="Post-relacionados">
+        <li>
+            <img src="related-1.jpg" alt="Pessoa Programando"
+            width="70"
+            height="75"
+            />
+            <a
+            href="#">Aprender desenvolvimento web</a>
+            <p> Por Jonas Schmentman</p>
+        </li>
+       
+            <li>
+                <img src="related-2.jpg" alt="iluminando"
+                width="70"
+                height="75"
+                />
+                <a
+                href="#">o poder de CSS</a>
+                <p> Por Jian Dillon</p>
+            </li>
+           
+
+            
+                <li>
+                    <img src="related-3.jpg" alt="codigo JavaScript"
+                    width="70"
+                    height="75"
+                    />
+                    <a
+                    href="#">Porque JavaScript e bom</a>
+                    <p> Por Jonas Schmentman</p>
+                </li>
+                </ul>
+            </aside>
+                <footer>
+                    <p>copytright O &copy; 2027 por Jornal de codigo</p>
+                    </footer>
+    
+
+    
+</body>
+</html>
+
+<!--primeira pagina em HTML-->
+<!-- id consegue selecionar um elemento para mudar cor ou algo do tipo no css se  tivermos o msmo representador 
+    ex: <h3> exemplo1</h3> <h3> exemplo2</h3>   
+ficaria <h3 id="title"> exemplo1</h3>   <h3> exemplo1</h3> 
+no css ficaria <h3>{
+    color: green;}
+#title{
+    color:blue; 
+} e assim um fica verde e outro azul -->
